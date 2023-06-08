@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h2>演唱會要帶什麼?</h2>
+        <input type="checkbox"><span>手機</span><br>
+        <input type="checkbox"><span>鑰匙</span><br>
+        <input type="checkbox"><span>錢包</span><br>
+        <input type="checkbox"><span>門票</span><br>
+        <input type="checkbox"><span>水</span><br>
+        <input type="checkbox"><span>雨傘</span><br>
+        <input type="checkbox"><span>衛生紙</span><br>
+        <input type="checkbox"><span>行動電源</span><br>
+        <input type="checkbox"><span>手燈、螢光棒</span><br>
+        <input type="checkbox"><span>應援板</span><br>
+        <input type="checkbox"><span>望遠鏡</span><br>
+        <input type="checkbox"><span>防蚊藥膏</span><br>
+        <input type="checkbox"><span>防曬乳</span><br>
+        <input type="checkbox"><span>化妝品</span><br>
+        <br>
+        <meter></meter>
+       <script src="//unpkg.com/jquery" ></script>
+       <script src="main.js" ></script>
+    </body>
+</html>
+
+<style>
+    
+    input[type=checkbox]+span {
+        display: inline-block;
+        padding: 3px 6px;
+        color: #050505;
+        user-select: none;
+    }
+
+    input[type=checkbox]:checked+span {
+        color: #bebebe;
+    }
+</style>
